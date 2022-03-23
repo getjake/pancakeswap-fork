@@ -1,4 +1,4 @@
-pragma solidity >0.4.18;
+pragma solidity >0.4.18 <=0.6.12;
 
 contract WBNB {
     string public name     = "Wrapped BNB";

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-pragma solidity >=0.4.0;
+pragma solidity >=0.4.0 <=0.6.12;
 
 /*
  * @dev Provides information about the current execution context, including the

@@ -1,4 +1,4 @@
-pragma solidity >=0.5.0;
+pragma solidity >=0.5.0 <=0.6.12;
 
 import '../interfaces/IPancakePair.sol';
 
@@ -21,7 +21,7 @@ library PancakeLibrary {
                 hex'ff',
                 factory,
                 keccak256(abi.encodePacked(token0, token1)),
-                hex'd0d4c4cd0848c93cb4fd1f498d7013ee6bfb25783ea21593d5834f5d250ece66' // init code hash
+                hex'bea2c879460881406b400d869e4aca4b8ca6751094b6210b294e297255dd5c45' // init code hash
             ))));
     }
 

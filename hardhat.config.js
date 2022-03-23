@@ -35,8 +35,19 @@ module.exports = {
       {
         version: "0.4.0",
       },
+      {
+        version: "0.8.0",
+      },
     ],
     overrides: {
+      "contracts/fBTC.sol": {
+        version: "0.8.9",
+        settings: {},
+      },
+      "contracts/fUSDT.sol": {
+        version: "0.8.9",
+        settings: {},
+      },
       "contracts/BnbStaking.sol": {
         version: "0.6.12",
         settings: {},
