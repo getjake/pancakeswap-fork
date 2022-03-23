@@ -21,3 +21,9 @@
     }
 }
 ```
+
+3. install dependencies
+```
+yarn add @pancakeswap/pancake-swap-lib @uniswap/v2-core
+
+```

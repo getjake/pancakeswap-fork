@@ -21,7 +21,16 @@ module.exports = {
   solidity: {
     compilers: [
       {
-        version: "0.8.4",
+        version: "0.6.2",
+      },
+      {
+        version: "0.6.12",
+      },
+      {
+        version: "0.6.0",
+      },
+      {
+        version: "0.4.0",
       },
     ],
     overrides: {
@@ -74,6 +83,38 @@ module.exports = {
         settings: {},
       },
       "contracts/Timelock.sol": {
+        version: "0.6.12",
+        settings: {},
+      },
+      "contracts/libs/MockBEP20.sol": {
+        version: "0.6.12",
+        settings: {},
+      },
+      "contracts/utils/Address.sol": {
+        version: "0.6.2",
+        settings: {},
+      },
+      "contracts/test/ERC20.sol": {
+        version: "0.5.16",
+        settings: {},
+      },
+      "contracts/libraries/UQ112x112.sol": {
+        version: "0.5.16",
+        settings: {},
+      },
+      "contracts/libraries/Math.sol": {
+        version: "0.5.16",
+        settings: {},
+      },
+      "contracts/libs/Migrations.sol": {
+        version: "0.5.16",
+        settings: {},
+      },
+      "contracts/libs/PancakeVoteProxy.sol": {
+        version: "0.6.12",
+        settings: {},
+      },
+      "contracts/token/BEP20/BEP20.sol": {
         version: "0.6.12",
         settings: {},
       },
