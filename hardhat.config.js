@@ -30,6 +30,9 @@ module.exports = {
         version: "0.6.0",
       },
       {
+        version: "0.6.6",
+      },
+      {
         version: "0.4.0",
       },
     ],
@@ -64,7 +67,13 @@ module.exports = {
       },
       "contracts/PancakeRouter.sol": {
         version: "0.6.6",
-        settings: {},
+        settings: {
+          evmVersion: "istanbul",
+          optimizer: {
+            enabled: true,
+            runs: 200,
+          },
+        },
       },
       "contracts/PancakeRouter01.sol": {
         version: "0.6.6",
